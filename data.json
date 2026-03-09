@@ -1,0 +1,21 @@
+{
+  "zaktualizowano": "2026-03-09",
+  "klienci": [
+    {
+      "nazwa": "Przykładowy Kontrahent",
+      "suma_pozostalo": 124.00,
+      "waluta": "PLN",
+      "faktury": [
+        {
+          "numer_faktury": "FV/03/2026/001",
+          "data_wystawienia": "2026-03-05",
+          "termin_platnosci": "2026-03-12",
+          "waluta": "PLN",
+          "wartosc_brutto": 124.00,
+          "pozostalo_do_zaplaty": 124.00,
+          "status": "niezapłacona"
+        }
+      ]
+    }
+  ]
+}
