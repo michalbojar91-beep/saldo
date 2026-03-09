@@ -1,8 +1,9 @@
 // KONFIGURACJA SUPABASE — PODMIEŃ NA SWOJE DANE
 // 1) Wejdź do supabase.com → Project Settings → API i skopiuj:
 //    - SUPABASE_URL, - PUBLIC ANON KEY (anon)
-const SUPABASE_URL = "https://YOUR_PROJECT.supabase.co"; // TODO: podmień
-const SUPABASE_ANON_KEY = "YOUR_PUBLIC_ANON_KEY";        // TODO: podmień
+const SUPABASE_URL = "https://michalbojar91-beep.github.io/saldo/"; // TODO: podmień
+const SUPABASE_ANON_KEY = "sb_publishable_W_VVVgnpIEg8Pr3JWOSfGQ_AGQfr9Vt
+";        // TODO: podmień
 
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
