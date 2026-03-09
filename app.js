@@ -13,7 +13,7 @@ function datePL(s) {
 }
 
 async function loadData() {
-  const res = await fetch("./data/data.json", { cache: "no-store" });
+  const res = await fetch("./data.json", { cache: "no-store" });
   const json = await res.json();
   state.data = json.klienci || [];
   state.updatedAt = json.zaktualizowano || null;
@@ -101,4 +101,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!e.target.closest("section")) $("#suggest").classList.add("hidden");
   });
 });
+
 ``
